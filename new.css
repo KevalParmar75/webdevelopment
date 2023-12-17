@@ -1,0 +1,172 @@
+:root {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+#navbar {
+    /* border: 18px solid plum */
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#logo {
+    margin: 34px 54px;
+}
+
+#logo img {
+    height: 54px;
+    margin: 1px 0px;
+}
+
+#navbar ul {
+    margin: 3px;
+    display: flex;
+}
+
+#navbar::before {
+    content: "";
+    background-color: darkgray;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+#navbar ul li {
+    /* color: burlywood; */
+    margin-top: 50px;
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    width: fit-content;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: azure;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    background: url('../gradient-background-backdrop-multicolor-colorful-vibrant-3840x2160-6723.png');
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+#home h1 {
+    color: rgb(244, 31, 148);
+    text-align: center;
+    font-size: 1.9rem;
+}
+
+#home p {
+    align-content: center;
+}
+
+.h-primary {
+    font-size: 3.4rem;
+    padding: 13px;
+}
+
+h1 {
+    /* display: flex; */
+    /* align-content: center; */
+    /* flex-wrap: wrap; */
+    margin-left: 12px;
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+h2 {
+    /* display: flex; */
+    /* align-content: center; */
+    /* flex-wrap: wrap; */
+    /* margin-left: 153px; */
+    text-align: center;
+}
+
+.btn {
+    padding: 6px 20px;
+    border: 2px solid darkmagenta;
+    border-radius: 15px;
+    background-color: burlywood;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: whitesmoke;
+    background-color: darkslategray;
+}
+
+#services {
+    margin: 14px;
+    display: flex;
+}
+
+#services .box {
+    /* margin: 4px 32px; */
+    margin: auto;
+    border: 2px solid black;
+    height: 400px;
+    width: 400px;
+    background-color: cadetblue;
+    border-radius: 40px;
+
+}
+
+#services h2 {
+    align-content: center;
+}
+
+#services .box p {
+    display: flex;
+    margin: 5px 21px;
+}
+
+
+.box img {
+    padding-top:15px;
+    height: 160px;
+    width: 120px;
+    display: block;
+    margin: auto;
+}
+
+.footer{
+    padding-top:75px;
+    display: block;
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+.footer li a{
+     list-style: none;
+     text-decoration: none;
+     color: black;
+}
+.footer li a:hover {
+    color: rgb(235, 176, 37);
+}
+
